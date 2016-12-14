@@ -4,8 +4,9 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package Popperscores_la
+ * @package Popperscores
  */
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -22,7 +23,16 @@ get_header(); ?>
 				endif;
 			?>
 			
-			<?php the_post_navigation(); ?>
+			<?php 
+			the_post_navigation( array(
+				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'popperscores_la' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Next post:', 'popperscores_la' ) . '</span> ' .
+					'<span class="post-title">%title</span>',
+				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'popperscores_la' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Previous post:', 'popperscores_la' ) . '</span> ' .
+					'<span class="post-title">%title</span>',
+			) );
+			?>
 
 		<?php endwhile; // End of the loop. ?>
 
