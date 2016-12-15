@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Pooperscores
+ * @package Popperscores
  */
 
 ?>
@@ -15,9 +15,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'pooperscores_la' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'pooperscores_la' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'popperscores' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'popperscores' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'pooperscores_la' ), 'pooperscores_la', '<a href="http://www.laura-greenberg.com" rel="designer">Laura Greenberg</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'popperscores' ), 'popperscores', '<a href="http://lynda.com/mor10" rel="designer">Morten Rand-Hendriksen</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

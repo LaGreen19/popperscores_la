@@ -25,11 +25,11 @@ get_header(); ?>
 			
 			<?php 
 			the_post_navigation( array(
-				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'popperscores_la' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Next post:', 'popperscores_la' ) . '</span> ' .
+				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'popperscores' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Next post:', 'popperscores' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
-				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'popperscores_la' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Previous post:', 'popperscores_la' ) . '</span> ' .
+				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'popperscores' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Previous post:', 'popperscores' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
 			) );
 			?>
